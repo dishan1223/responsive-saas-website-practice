@@ -1,0 +1,10 @@
+.showcase img {
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 566px) {
+    .showcase img {
+        margin-bottom: 60px;
+    }
+}

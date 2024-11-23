@@ -1,0 +1,57 @@
+@import url(style.css);
+
+.img-gif {
+    height: 500px;
+    width: auto;
+}
+
+.company-logo {
+    margin-top: 77px;
+    width: 100%;
+    height: auto;
+    padding-top: 67px;
+    padding-bottom: 68px;
+    border-bottom: 1px solid rgb(255, 255, 255, 20%);
+    border-top: 1px solid rgb(255, 255, 255, 20%);
+    margin-bottom: 100px;
+}
+
+.logos-2 {
+    height: 79px;
+    display: none;
+}
+
+
+.company-logo .logos-1 {
+    width: 86.2%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .flex-direction {
+        flex-direction: column;
+        text-align: center;
+        gap: 69px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .company-logo {
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+
+    .logos-1 {
+        display: none;
+    }
+
+    .logos-2 {
+        display: block;
+    }
+}

@@ -1,0 +1,29 @@
+.testimonial {
+    width: 100%;
+    height: auto;
+    background-color: var(--purple);
+    padding: 83px 162px;
+    margin-bottom: 130px;
+}
+
+.user-img {
+    width: 80px;
+    height: auto;
+}
+
+.user {
+    gap: 20px;
+}
+
+@media screen and (max-width:1060px) {
+    .testimonial {
+        padding: 70px 100px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .testimonial {
+        padding: 50px 40px;
+        margin-bottom: 100px;
+    }
+}

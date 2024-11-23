@@ -1,0 +1,42 @@
+.card {
+    width: 311px;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.features div h2 {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1140px) {
+    .card img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .card img {
+        width: 45px;
+    }
+
+    .card {
+        width: 211px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .features div h2 {
+        margin-top: 48px;
+    }
+
+    .card {
+        margin-bottom: 90px;
+    }
+}
